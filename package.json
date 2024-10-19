@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://Bharatnaiduu.github.io/blood-project",
   "name": "project",
   
   "private": true,
@@ -10,7 +10,8 @@
   
   "scripts": {
   
-    
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build",
   "dev": "vite",
   
     
